@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名" />
+		<TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名" />
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码" />
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/Scroll_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >"
+
+            </LinearLayout>
+        </ScrollView>
+
+        <TableLayout
+            android:id="@+id/messageTl"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:padding="3dip" >
+
+            <TableRow
+                android:id="@+id/tableRow1" >"
+			<TextView
+            android:id="@+id/textview5"
+            android:text="id" android:layout_width="100px"/>
+            
+			<TextView
+            android:id="@+id/textview6"
+            android:text="@string/user_name"  android:layout_width="200px"/>
+			<TextView
+            android:id="@+id/textview7"
+            android:text="@string/account"  android:layout_width="200px"/>"
+			</TableRow>
+            
+        </TableLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

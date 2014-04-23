@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">activity</string>
+    <string name="login">登陆</string>
+    <string name="user_name">用户名</string>
+    <string name="account">账号余额</string>
+    <string name="detail">详细</string>
+</resources>
